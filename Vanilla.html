@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore Goa</title>
+  <link rel="stylesheet" href="Vanilla.css"/>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="nav-left">
+        <h1>Explore Goa🏝️</h1>
+      </div>
+      <div class="nav-right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#attractions">Top Attractions</a></li>
+          <li><a href="#planner">Plan Your Trip</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <h2>Welcome to Goa</h2>
+    <p>Your gateway to sun, sand, and serenity.</p>
+    <a href="#planner" class="btn">Plan a Trip</a>
+  </section>
+
+  <section id="attractions" class="section">
+    <h2>Top Attractions</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://static.toiimg.com/photo/msid-29609663,width-96,height-65.cms" alt="Baga Beach" />
+        <h3>Baga Beach</h3>
+        <p>Famous beach with nightlife and water sports.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.estrelahotels.com/blog/wp-content/uploads/2022/08/Aguada-Fort_600-1280x720.jpg" alt="Fort Aguada" />
+        <h3>Fort Aguada</h3>
+        <p>17th-century Portuguese fort with scenic views.</p>
+      </div>
+      <div class="card">
+        <img src="http://images.indiatvnews.com/mainnational/2014/14162407261.jpg" alt="Dudhsagar Falls" />
+        <h3>Dudhsagar Falls</h3>
+        <p>Majestic 4-tiered waterfall in the Western Ghats.</p>
+      </div>
+    </div>
+  </section>
+ <section id="planner" class="section">
+    <h2>Plan Your Trip</h2>
+    <form id="tripForm">
+      <label>Number of Days:
+        <input type="number" id="days" name="days" min="1" max="10" required />
+      </label>
+      <button type="submit" class="btn">Suggest Itinerary</button>
+    </form>
+    <div id="itinerary"></div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://deih43ym53wif.cloudfront.net/cola-beach-goa-india-shutterstock_772145203_82b97bd9df.jpeg" alt="Goa Beach" />
+      <img src="https://www.adotrip.com/public/images/areas/5c3db276d588a-Aguada%20fort%20Package%20Tour.jpg" alt="Goa Fort" />
+      <img src="https://www.tourmyindia.com/socialimg/basilica-of-bom-jesus-goa.jpg" alt="Goa Temple" />
+    </div>
+  </section>
+
+  <section id="reviews" class="section">
+    <h2>What Tourists Say</h2>
+    <div class="review-slider">
+      <p id="reviewText">"Goa is a paradise! Beautiful beaches and friendly locals."</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Explore Goa | Designed by You</p>
+  </footer>
+
+  <script src="Vanilla.js"></script>
+</body>
+</html>
